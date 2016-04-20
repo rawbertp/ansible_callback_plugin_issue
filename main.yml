@@ -1,0 +1,6 @@
+---
+- tasks:
+  - name: "fail if you can"
+    fail:
+      msg: "fail fail fail"
+

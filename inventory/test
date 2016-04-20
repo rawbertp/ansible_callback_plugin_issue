@@ -1,0 +1,7 @@
+[frontend]
+
+[backend]
+
+[all:children]
+frontend
+backend
