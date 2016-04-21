@@ -1,6 +1,10 @@
 ---
-- tasks:
-  - name: "fail if you can"
-    fail:
-      msg: "fail fail fail"
+- hosts: all
+  tasks:
+    - name: "Test 1,2,3"
+      debug: msg="{{foo}}"
+
+    - name: "fail if you can"
+      fail:
+        msg: "fail fail fail"
 

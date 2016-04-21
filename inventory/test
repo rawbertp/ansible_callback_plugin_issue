@@ -1,7 +1,5 @@
 [frontend]
+localhost
 
-[backend]
-
-[all:children]
+[test:children]
 frontend
-backend
