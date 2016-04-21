@@ -1,0 +1,2 @@
+foo: "prod_bar" 
+ansible_connection: local
