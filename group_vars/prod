@@ -1,2 +1,3 @@
-foo: "prod_bar" 
+---
+foo: "prod"
 ansible_connection: local

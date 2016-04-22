@@ -1,10 +1,10 @@
 ---
 - hosts: all
   tasks:
-    - name: "Test 1,2,3"
+    - name: "Value of the foo groupVar:"
       debug: msg="{{foo}}"
 
-    - name: "fail if you can"
+    - name: "Fail step"
       fail:
-        msg: "fail fail fail"
+        msg: "Please fail here!"
 
